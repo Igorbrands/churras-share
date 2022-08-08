@@ -1,6 +1,6 @@
 # Churras Share🥩🍻
 
-Sistema para compartilhar e dividir os custos de organizar aquele churrasco bom com os amigos e família.
+Sistema para compartilhar e dividir os custos de organizar aquele churrasco bom(!) com amigos e família.
 
 ## 🧑‍💻 Tecnologias
 
@@ -10,6 +10,15 @@ Projeto [Next.js](https://nextjs.org/) startado com [`create next-app --typescri
 - TypeScript
 - Tailwind CSS
 - Zustand
+
+## 🗒️ Tarefas
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [ ] Incluir um novo churrasco com data, descrição e observações adicionais;
+- [ ] Adicionar e remover participantes (colocando o seu valor de contribuição);
+- [ ] Colocar um valor sugerido por usuário de contribuição (valor com e sem bebida inclusa);
+- [ ] Visualizar os detalhes do churrasco, total de participantes e valor arrecadado.
 
 ## 💾 Requisitos
 
