@@ -29,19 +29,17 @@ Ter instalado pelo menos um gerenciador de pacotes do Node, [Npm](https://www.np
 Após clonar o repositório.
 
 Rode no terminal:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Depois:
-
 ```bash
 npm run install
 # or
 yarn install
+```
+
+Depois:
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no navegador para acessar a aplicação rodando.
