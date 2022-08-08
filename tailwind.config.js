@@ -3,7 +3,11 @@ module.exports = {
   mode: 'jit',
   content: ['./src/components/**/*.tsx', './src/pages/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        yellow: '#FFD836',
+      },
+    },
   },
   plugins: [require('@tailwindcss/forms')],
 };
