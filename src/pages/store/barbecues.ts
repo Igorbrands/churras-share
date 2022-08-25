@@ -32,7 +32,7 @@ type UseBarbecuesStoreActions = {
 
 export const useBarbecuesStore = create(
 	persist<State>(
-		(set, get) => ({
+		set => ({
 			barbecues: [],
 
 			actions: {
