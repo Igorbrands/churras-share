@@ -4,16 +4,28 @@
 
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, Raleway, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, Raleway, sans-serif;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.date {
+	@apply mb-2 font-extrabold text-3xl;
+}
+
+.icon {
+	@apply text-yellow-100 h-5 w-5 mr-2;
+}
+
+.input {
+	@apply placeholder:italic h-12 rounded-sm;
 }
